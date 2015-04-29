@@ -1,0 +1,13 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+datarootdir=@datarootdir@
+datadir=@datadir@
+includedir=@includedir@/liblibtox_net-0.1
+
+Name: liblibtox_net
+Description: Sample library created by Anjuta project wizard.
+Version: @VERSION@
+Requires: 
+Libs: -L${libdir} -llibtox_net
+Cflags: -I${includedir}
